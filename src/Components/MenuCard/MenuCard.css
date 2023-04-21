@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+
+.card_box {
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  position: relative;
+  background: #f6f6f6;
+  box-shadow: inset -2px 2px 4px rgba(205, 205, 205, 0.2),
+    inset 2px -2px 4px rgba(205, 205, 205, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(205, 205, 205, 0.9);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card_box:hover {
+  transform: scale(0.9);
+}
+
+.card_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spanImg {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.vegDiv {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+}
+
+.vegIconImg {
+  width: 10%;
+  height: 10%;
+}
+
+.itemName {
+  width: 150px;
+  height: 16px;
+  color: #4a5662;
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  position: relative;
+  left: 8%;
+}
+
+.lastDiv {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 18rem;
+  left: 2rem;
+}
+
+.priceTag {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #4a5662;
+  width: 52px;
+  height: 18px;
+}
+
+.addBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 7px 11px 7px 7px; */
+  padding: 10%;
+  gap: 8px;
+  cursor: pointer;
+
+  position: relative;
+  width: 72px;
+  height: 32px;
+  left:7rem;
+
+  background: #f0f0f3;
+  box-shadow: -5px 5px 10px rgba(221, 221, 224, 0.2),
+    5px -5px 10px rgba(221, 221, 224, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(221, 221, 224, 0.9);
+  border-radius: 10px;
+}

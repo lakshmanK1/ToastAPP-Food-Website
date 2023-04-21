@@ -1,0 +1,15 @@
+.tabDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tabText{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* color: rgba(74, 86, 98, 0.4); */
+text-align: center;
+cursor: pointer;
+}

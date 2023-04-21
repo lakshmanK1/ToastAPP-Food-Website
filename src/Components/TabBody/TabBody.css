@@ -1,0 +1,90 @@
+.firstDiv{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    overflow: hidden;
+}
+
+
+.banner{
+    position: relative;
+    top:10rem;
+    width: 70%;
+    background: radial-gradient(100% 687.99% at 0% 100%, #000000 25.03%, rgba(0, 0, 0, 0.32) 53.12%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 30px;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 30rem;
+    border-radius: 30px;
+}
+
+.heroBannerMsg{
+    position: absolute;
+    width: 180px; 
+    height: 100px;
+    left: 22%;
+    bottom: 15%;
+
+   font-family: 'Graphik';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 35px;
+   color: #FFFFFF;
+}
+
+.divider{
+width: 70%;
+display: flex;
+margin: 1%;
+}
+
+.tabName{
+width:18% ;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 16px;
+color: #4A5662;
+position: absolute;
+top: 93%;
+}
+
+.hr-style-one {
+    position: relative;
+    top: 8.2rem;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #4A5662, rgba(255, 255, 255, 0));
+    
+}
+
+.dropup{
+    width:5rem ;
+    height:2rem;
+    color: #3CBCB4;
+    position: absolute;
+    top: 92%;
+    left: 80%;
+}
+
+.cardArr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:12%;
+    position: relative;
+    top: 50%;
+    left:4.5%;
+}

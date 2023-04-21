@@ -1,0 +1,38 @@
+.footMainDiv {
+  background: #f0f3f3;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+}
+
+.footExtIconsDiv {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footExtIcons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  background: #f1f1f1;
+  margin-right: 1rem;
+}
+
+.footCartIcon {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    background: #f1f1f1;
+    margin-right: 1rem;
+  }
+.react-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
