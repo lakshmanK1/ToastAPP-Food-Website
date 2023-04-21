@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ToastApp-FOOD-Website/static/css/main.7f9474c2.css",
+    "main.js": "/ToastApp-FOOD-Website/static/js/main.59975607.js",
+    "static/js/787.8fce7c5e.chunk.js": "/ToastApp-FOOD-Website/static/js/787.8fce7c5e.chunk.js",
+    "static/media/chocolate-bowl.png": "/ToastApp-FOOD-Website/static/media/chocolate-bowl.df70e0c1333f78cf28ed.png",
+    "static/media/sunset-acai-bowl.png": "/ToastApp-FOOD-Website/static/media/sunset-acai-bowl.918850ea7c452a360867.png",
+    "index.html": "/ToastApp-FOOD-Website/index.html",
+    "main.7f9474c2.css.map": "/ToastApp-FOOD-Website/static/css/main.7f9474c2.css.map",
+    "main.59975607.js.map": "/ToastApp-FOOD-Website/static/js/main.59975607.js.map",
+    "787.8fce7c5e.chunk.js.map": "/ToastApp-FOOD-Website/static/js/787.8fce7c5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9474c2.css",
+    "static/js/main.59975607.js"
+  ]
+}
